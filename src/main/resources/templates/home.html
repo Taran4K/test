@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Getting Started: Serving Web Content</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<form method="post" action="/result">
+  <input value=0 name="variable1" type="number">
+  <select name="operation">
+    <option value="Plus">+</option>
+    <option value="Minus">-</option>
+    <option value="Multy">*</option>
+    <option value="Divis">/</option>
+  </select>
+  <input value=0 name="variable2" type="number">
+  <input type="submit" name="submit" value="Посчитать (Post)">
+</form>
+<br>
+<form method="get" action="/result">
+  <input value=0 name="variable1" type="number">
+  <select name="operation">
+    <option value="Plus">+</option>
+    <option value="Minus">-</option>
+    <option value="Multy">*</option>
+    <option value="Divis">/</option>
+  </select>
+  <input value=0 name="variable2" type="number">
+  <input type="submit" name="submit" value="Посчитать но в красивой верстке (Get)">
+</form>
+</br>
+</body>
+</html>
